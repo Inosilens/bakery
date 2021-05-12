@@ -1,10 +1,13 @@
-@import "fonts"
+@import "~bootstrap"
+@import "some"
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Playfair+Display:wght@400;700&display=swap')
+
 a
   text-decoration: none
 html
-  min-width: 320px
-
+  min-width: 480px
+@font-face
+  src: url("../fonts/Scriptina.woff")
 
 /* HEADER BLOG */
 
@@ -12,6 +15,7 @@ header
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) , url("../img/backgroundNav.png") center center no-repeat
   background-size: cover
   color: white
+  position: relative
   .header__top
     background: rgba(0, 0, 0, .4)
   .header__logo
@@ -29,9 +33,9 @@ header
     div
       margin-right: 30px
   #header__Navigation
-      p
-        font-size: 20px
-        margin: 0 10px
+    p
+      font-size: 20px
+      margin: 0 10px
 
 
   .header__bot
@@ -41,9 +45,19 @@ header
       h1
         font-size: 92px
         font-weight: bold
+    .header__tittle:after
+      display: block
+      content: ""
+      background: #c0bab6
+      width: 200px
+      height: 3px
+      margin-left: 270px
+      margin-top: 60px
+      position: sticky
     .header__subtittle
       padding-top: 165px
       font-size: 24px
+
     .header__button
       padding-top: 75px
       margin-bottom: 214px
@@ -55,11 +69,4 @@ header
         font-weight: 500
 
 
-
-
-
-
-
-
-
-
+/* ART blog */
