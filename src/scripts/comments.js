@@ -1,5 +1,5 @@
 import $ from 'jquery'
-import "bootstrap"
+
 import {getComments} from "./services/getComments";
 
 export const comments = () =>{
