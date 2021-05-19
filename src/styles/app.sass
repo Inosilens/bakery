@@ -158,8 +158,51 @@ header
       h5
         font-size: 36px
         color: #dfc691
+        font-weight: 100
     .breakfast__menuBlog
-      background: url("../img/border.png") , white
-      background-size: cover
+      background: url("../img/bgMenu.png") center center no-repeat
+      background-size: contain
+      max-width: 440px
+      width: 100%
+      .breakfast__menuBlogContent
+        background:  url("../img/border.png") center center no-repeat
+        background-size: contain
+      .breakfast__menuBlogText
+        margin-top: 80px
+        h1
+          font-size: 44px
+          color: #56534c
+        h3
+          font-size: 14px
+          color: #56534c
+          margin-top: 50px
+          line-height: 20px
+      .breakfast__button
+        margin-top: 50px
+        button
+          font-size: 18px
+          color: #a47d5e
+          border: 1px solid #56534c
+          border-radius: 0
+          max-width: 190px
+          width: 100%
+    .breakfast__menu
+      position: relative
+      #blog__one
+        position: relative
+        z-index: 3
+      #blog__two
+        position: absolute
+        bottom: 110px
+        left: 40px
+        z-index: 2
+
+      #blog__three
+        position: absolute
+        bottom: 120px
+        left: 70px
+
+        z-index: 1
+
 
 
