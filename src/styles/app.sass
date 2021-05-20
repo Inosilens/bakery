@@ -1,25 +1,34 @@
 @import "~bootstrap"
 @import "some"
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Playfair+Display:wght@400;700&display=swap')
-
+@font-face
+  font-family: "Alegreya-Regular"
+  src : url("../fonts/Alegreya/static/Alegreya-Regular.ttf")
 a
   text-decoration: none
 html
   min-width: 480px
 @font-face
+  font-family: "Scriptina"
   src: url("../fonts/Scriptina.woff")
-
+body
+  font-family: "Alegreya-Regular", sans-serif
 /* HEADER BLOG */
 
-header
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) , url("../img/backgroundNav.png") center center no-repeat
+
+#header
+  background:  radial-gradient(rgba(0,0,0.1), rgba(45, 44, 44, 0.1)),  url("../img/backgroundNav.png") center center no-repeat
   background-size: cover
   color: white
   position: relative
-  .header__top
-    background: rgba(0, 0, 0, .4)
+  nav.header__top
+    background: rgba(0, 0, 0, .2)
+    .header__navContent
+      margin-left: 170px
+      margin-right: 170px
+
   .header__logo
-    font-family: "Scriptina",sans-serif
+    font-family: "Scriptina"
     h5
       font-size: 40px
   a
