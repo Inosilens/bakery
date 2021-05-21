@@ -1,40 +1,38 @@
 @import "~bootstrap"
 @import "some"
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Playfair+Display:wght@400;700&display=swap')
-@font-face
-  font-family: "Alegreya-Regular"
-  src : url("../fonts/Alegreya/static/Alegreya-Regular.ttf")
-a
-  text-decoration: none
-html
-  min-width: 480px
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
 @font-face
   font-family: "Scriptina"
   src: url("../fonts/Scriptina.woff")
 body
-  font-family: "Alegreya-Regular", sans-serif
+  font-family: "Alegreya",sans-serif
+a
+  text-decoration: none
+html
+  min-width: 480px
 /* HEADER BLOG */
 
 
 #header
-  background:  radial-gradient(rgba(0,0,0.1), rgba(45, 44, 44, 0.1)),  url("../img/backgroundNav.png") center center no-repeat
+  background: url("../img/backgroundNav.png") center center no-repeat
   background-size: cover
   color: white
   position: relative
   nav.header__top
-    background: rgba(0, 0, 0, .2)
+    background: rgba(0, 0, 0, .3)
+    font-weight: 400
     .header__navContent
       margin-left: 170px
       margin-right: 170px
 
   .header__logo
-    font-family: "Scriptina"
+    font-family: "Scriptina",sans-serif
     h5
       font-size: 40px
   a
     color: white
-    font-family: PlayfairDisplay,sans-serif
     font-size: 18px
+    letter-spacing: 5px
   span
     color: white
   .header__links
@@ -46,24 +44,21 @@ body
       font-size: 20px
       margin: -5px 20px
   .header__bot
-    font-family: "PlayfairDisplay",sans-serif
+    background: radial-gradient(rgba(50, 49, 49, 0.82), rgba(255, 255, 255, 0.1))
+    .header__dashedLine
+      padding-top: 70px
     .header__tittle
       margin-top: 200px
       h1
         font-size: 92px
         font-weight: bold
-    .header__tittle:after
-      display: block
-      content: ""
-      background: #c0bab6
-      width: 200px
-      height: 3px
-      margin-left: 270px
-      margin-top: 60px
-      position: sticky
+        font-family: "Playfair Display",sans-serif
+        letter-spacing: 10px
     .header__subtittle
-      padding-top: 165px
+      padding-top: 70px
       font-size: 24px
+      width: 100%
+      letter-spacing: 5px
 
     .header__button
       padding-top: 75px
@@ -75,11 +70,9 @@ body
         letter-spacing: 5px
         font-weight: 500
     .header__img
+      margin-top: 100px
       position: relative
-      top: 20px
-      img
-        position: relative
-        top: 20px
+      top: 50px
 #art
   padding-top: 200px
   .art__content
@@ -107,7 +100,7 @@ body
           font-size: 14px
           color: #56534c
         .art__chefCitata
-          font-family: Scriptina ,sans-serif
+          font-family: "Scriptina" ,sans-serif
           font-size: 24px
           color: #56534c
           padding-top: 50px
