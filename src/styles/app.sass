@@ -6,6 +6,7 @@
   src: url("../fonts/Scriptina.woff")
 body
   font-family: "Alegreya",sans-serif
+  margin: 0 auto
 a
   text-decoration: none
 html
@@ -14,28 +15,27 @@ html
 
 
 #header
-  background: url("../img/backgroundNav.png") center center no-repeat
-  background-size: cover
   color: white
   position: relative
-  nav.header__top
-    background: rgba(0, 0, 0, .3)
+  z-index: 2
+  background: rgba(0, 0, 0, .3)
+  padding-left: 170px
+  padding-right: 170px
+  &__top
     font-weight: 400
-    .header__navContent
+    &__navContent
       margin-left: 170px
       margin-right: 170px
-
-  .header__logo
-    font-family: "Scriptina",sans-serif
-    h5
-      font-size: 40px
+      &__logo
+       font-family: "Scriptina",sans-serif
+       font-size: 40px
   a
     color: white
     font-size: 18px
     letter-spacing: 5px
   span
     color: white
-  .header__links
+  &__links
     color: white
     div
       margin-right: 30px
@@ -43,10 +43,20 @@ html
     p
       font-size: 20px
       margin: -5px 20px
+#header__bot
+  background:  url("../img/backgroundNav.png") center center no-repeat
+  background-size: cover
+  color: white
+  position: relative
+  z-index: 1
+  margin-top: -88px
+  padding-top: 100px
   .header__bot
     background: radial-gradient(rgba(50, 49, 49, 0.82), rgba(255, 255, 255, 0.1))
+
     .header__dashedLine
       padding-top: 70px
+
     .header__tittle
       margin-top: 200px
       h1
