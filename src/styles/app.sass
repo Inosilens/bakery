@@ -21,8 +21,6 @@ html
   position: relative
   z-index: 2
   background: rgba(0, 0, 0, .3)
-  padding-left: 170px
-  padding-right: 170px
   .header__top
     font-weight: 400
     .header__navContent
@@ -39,7 +37,7 @@ html
     letter-spacing: 5px
   span
     color: white
-  &__links
+  .header__links
     color: white
     div
       margin-right: 30px
@@ -97,6 +95,8 @@ html
         h3
           font-size: 14px
           color: #a47d5e
+          text-transform: uppercase
+          font-weight: bold
       .art__subtittle
         font-size: 14px
         color: #56534c
@@ -108,13 +108,25 @@ html
           font-size: 24px
           color: #56534c
         .art__chefPhoto
-          font-size: 14px
+          font-size: 24px
           color: #56534c
+
+
         .art__chefCitata
           font-family: "Scriptina" ,sans-serif
           font-size: 24px
-          color: #56534c
+          color: #a47d5e
           padding-top: 50px
+          line-height: 20px
+          div
+            font-family: "Times New Roman",sans-serif
+            font-size: 60px
+            color: #b6b5b2
+          .art__kovichkiOne
+            margin-right: 300px
+          .art__kovichkiTwo
+            margin-left: 300px
+
 #pancaakes
   background: url("../img/background2.png") center center no-repeat
   background-size: cover
@@ -126,8 +138,16 @@ html
       bottom: 30px
     .pancaakes__center
       box-shadow: 0 0 10px rgba(0,0,0,1)
+
+
+      .pancaaker__img
+
+
+
     .pancaakes__menu
-      background: white
+      background: url("../img/text_bg.png") center center no-repeat , url("../img/tastyBg.png") right bottom no-repeat
+
+      background-size: cover
       .pancaakes__tittle
         h1
           font-size: 48px
@@ -144,9 +164,19 @@ html
         padding-top: 30px
       .pancaakes__foodMenu
         padding-top: 30px
+
+      .pancaakes__indicators
+        margin-left: 150px
+        margin-top: 18px
         button
-          border: solid 1px black
-          border-radius: 50px
+          border-radius: 50%
+          width: 15px
+          height: 15px
+          background: none
+          border-color: #d8bba3
+          margin-left: 8px
+
+
 #breakfast
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../img/breakfastbg.png") center center no-repeat
   background-size: cover

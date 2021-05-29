@@ -10,9 +10,7 @@
   </head>
   <body>
     <header class="header">
-      <section
-        class="container-fluid header__top align-items-center text-center p-3"
-      >
+      <section class="header__top align-items-center text-center p-3">
         <div
           class="header__navContent d-flex align-items-center text-center justify-content-between"
         >
@@ -56,17 +54,17 @@
           >
             <div class="header__twiter">
               <a href="">
-                <img src="img/twitter.png" class="img-fluid" />
+                <img src="img/twitter.png" class="" alt="twitter" />
               </a>
             </div>
             <div class="header__faccebook">
               <a href="">
-                <img src="img/facebook.png" class="img-fluid" alt="faceebok"
+                <img src="img/facebook.png" class="" alt="faceebok"
               /></a>
             </div>
             <div class="header__instagram">
               <a href="">
-                <img src="img/instagram.png" class="img-fluid" alt="insta" />
+                <img src="img/instagram.png" class="" alt="insta" />
               </a>
             </div>
           </div>
@@ -112,9 +110,11 @@
             <div class="art__subtittle">
               <p>
                 Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-                augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
-                rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem
-                quam semper libero, sit amet adipiscing sem neque sed.
+                augue.<br />
+                Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+                rhoncus.<br />
+                Maecenas tempus, tellus eget condimentum rhoncus, sem quam
+                <br />semper libero, sit amet adipiscing sem neque sed.
               </p>
             </div>
             <div class="art__chef d-flex flex-column">
@@ -124,18 +124,27 @@
               <div
                 class="art__chefPhoto d-flex flex-column flex-md-row text-center justify-content-center align-items-center"
               >
-                <div class="art_chefFirstName mx-4">
+                <div
+                  class="art_chefFirstName border-top border-bottom pt-2 mx-4"
+                >
                   <p>Benito</p>
                 </div>
                 <div class="art__chefImg">
                   <img src="images/avatar.png" class="img-fluid" alt="chef" />
                 </div>
-                <div class="art__chefSecondName mx-4">
+                <div
+                  class="art__chefSecondName border-top border-bottom pt-2 mx-4"
+                >
                   <p>Gaspare</p>
                 </div>
               </div>
               <div class="art__chefCitata">
-                <p>" Unique creations for unique occasions."</p>
+                <div class="art__kovichkiOne">&#8220;</div>
+                <p>
+                  Unique creations for unique<br />
+                  occasions.
+                </p>
+                <div class="art__kovichkiTwo">&#8221;</div>
               </div>
             </div>
           </div>
@@ -147,8 +156,9 @@
       <article class="container-fluid" id="pancaakes">
         <section class="container pancaakes__content d-flex">
           <div class="pancaakes__center d-flex flex-column flex-md-row">
-            <div class="pancaaker__img w-50">
-              <img src="img/contentImg.png" class="" alt="" />
+            <div class="pancaaker__img">
+
+
             </div>
             <div class="pancaakes__menu p-5">
               <div class="pancaakes__tittle">
@@ -169,7 +179,9 @@
                 class="pancaakes__foodMenu justify-content-around align-items-center d-flex flex-row"
               >
                 <div class="pancaakes__rightButton">
-                  <button type="button">&lt</button>
+                  <a href="#" class=" "
+                    ><img src="img/pancakkerRB.png" class="img-fluid" alt=""
+                  /></a>
                 </div>
                 <div class="pancaakes__menuImg">
                   <img src="img/cock1.png" class="img-fluid" alt="cock" />
@@ -177,13 +189,35 @@
                   <img src="img/cock3.png" class="img-fluid" alt="cock" />
                 </div>
                 <div class="pancaakes__leftButton">
-                  <button type="button">></button>
+                  <a href="#" class=""
+                    ><img src="img/pancakkesLB.png" class="img-fluid" alt=""
+                  /></a>
                 </div>
+              </div>
+              <div
+                class="pancaakes__indicators justify-content-center align-items-center"
+              >
+                <button
+                  type="button"
+                  class="btn-outline-secondary rounded-circle"
+                ></button>
+                <button
+                  type="button"
+                  class="rounded-circle btn-outline-secondary"
+                ></button>
+                <button
+                  type="button"
+                  class="rounded-circle btn-outline-secondary"
+                ></button>
+                <button
+                  type="button"
+                  class="rounded-circle btn-outline-secondary"
+                ></button>
               </div>
             </div>
           </div>
           <div class="pancaakes__littleBlog position-relative">
-            <img src="img/ready.png" alt="gtv" class="" />
+            <img src="img/ready.png" alt="gtv" class="img-fluid" />
           </div>
         </section>
       </article>
@@ -291,67 +325,82 @@
         </section>
       </article>
       <article class="container-fluid" id="sandwich">
-        <section class="container sandwich__content d-flex text-center justify-content-between flex-column">
+        <section
+          class="container sandwich__content d-flex text-center justify-content-between flex-column"
+        >
           <div class="sandwich__tittle">
             <h1>The Jibarito sandwich</h1>
             <h3>the best sandwich you’ve ever tasted!</h3>
-
           </div>
-          <div class="sandwithc__menu d-flex flex-column flex-md-row justify-content-between">
+          <div
+            class="sandwithc__menu d-flex flex-column flex-md-row justify-content-between"
+          >
             <div class="sandwich__leftBlock d-flex flex-row flex-md-column">
-            <div class="sandwich__eatBlog">
-              <img src="img/psheno.png" class="img-fluid">
-              <h3>Class aptent</h3>
-              <p>Quot alienum persecuti ut eam, nam ad<br>
-                atqui primis nusquam.</p>
-            </div>
-              <div class="sandwich__eatBlog pt-md-5 pt-sm-0">
-                <img src="img/egs.png" class="img-fluid">
-                <h3>Nulla eget</h3>
-                <p>Nullam dictum felis eu pede mollis<br>
-                  pretium Integer tincidunt.</p>
+              <div class="sandwich__eatBlog">
+                <img src="img/psheno.png" class="img-fluid" />
+                <h3>Class aptent</h3>
+                <p>
+                  Quot alienum persecuti ut eam, nam ad<br />
+                  atqui primis nusquam.
+                </p>
               </div>
               <div class="sandwich__eatBlog pt-md-5 pt-sm-0">
-                <img src="img/sugar.png" class="img-fluid">
+                <img src="img/egs.png" class="img-fluid" />
+                <h3>Nulla eget</h3>
+                <p>
+                  Nullam dictum felis eu pede mollis<br />
+                  pretium Integer tincidunt.
+                </p>
+              </div>
+              <div class="sandwich__eatBlog pt-md-5 pt-sm-0">
+                <img src="img/sugar.png" class="img-fluid" />
                 <h3>Sed nibh purus</h3>
-                <p> Aenean eleifend tellus leo ligula,<br>
-                  porttitor eu, consequat vitae.</p>
+                <p>
+                  Aenean eleifend tellus leo ligula,<br />
+                  porttitor eu, consequat vitae.
+                </p>
               </div>
             </div>
             <div class="sandwich__rightBlock">
               <div class="sandwich__img mt-5">
-                <img src="img/sandwichRigthBlog.png" class="img-fluid" alt="sandwich">
-
+                <img
+                  src="img/sandwichRigthBlog.png"
+                  class="img-fluid"
+                  alt="sandwich"
+                />
               </div>
               <div class="sandwich__button">
                 <button type="button">FULL RECIPE</button>
               </div>
-
             </div>
-
           </div>
-
         </section>
       </article>
     </main>
-    <footer><nav class="navbar justify-content-center text-center align-items-center container navbar-expand-lg navbar-light">
-      <ul class="navbar-nav justify-content-center text-center align-items-center">
-        <li class="nav-item"><a href="" class="nav-link">our menu</a></li>
-        <li class="nav-item header__fake px-3"><p>~</p></li>
-        <li class="nav-item"><a href="" class="nav-link">gallery     </a></li>
-        <li class="nav-item header__fake px-3"><p>~</p></li>
-        <li class="nav-item"><a href="" class="nav-link">culture</a></li>
-        <li class="nav-item header__fake px-3"><p>~</p></li>
-        <li class="nav-item"><a href="" class="nav-link navbar-brand">Gustaso</a></li>
-        <li class="nav-item header__fake px-3"><p>~</p></li>
-        <li class="nav-item"><a href="" class="nav-link">events</a></li>
-        <li class="nav-item header__fake px-3"><p>~</p></li>
-        <li class="nav-item"><a href="" class="nav-link">events</a></li>
-        <li class="nav-item header__fake px-3"><p>~</p></li>
-        <li class="nav-item"><a href="" class="nav-link">visit us</a></li>
-
-      </ul>
-    </nav>
+    <footer>
+      <nav
+        class="navbar justify-content-center text-center align-items-center container navbar-expand-lg navbar-light"
+      >
+        <ul
+          class="navbar-nav justify-content-center text-center align-items-center"
+        >
+          <li class="nav-item"><a href="" class="nav-link">our menu</a></li>
+          <li class="nav-item header__fake px-3"><p>~</p></li>
+          <li class="nav-item"><a href="" class="nav-link">gallery </a></li>
+          <li class="nav-item header__fake px-3"><p>~</p></li>
+          <li class="nav-item"><a href="" class="nav-link">culture</a></li>
+          <li class="nav-item header__fake px-3"><p>~</p></li>
+          <li class="nav-item">
+            <a href="" class="nav-link navbar-brand">Gustaso</a>
+          </li>
+          <li class="nav-item header__fake px-3"><p>~</p></li>
+          <li class="nav-item"><a href="" class="nav-link">events</a></li>
+          <li class="nav-item header__fake px-3"><p>~</p></li>
+          <li class="nav-item"><a href="" class="nav-link">events</a></li>
+          <li class="nav-item header__fake px-3"><p>~</p></li>
+          <li class="nav-item"><a href="" class="nav-link">visit us</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
