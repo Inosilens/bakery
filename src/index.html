@@ -17,7 +17,7 @@
           <div class="header__logo">
             <h5>Gustaso</h5>
           </div>
-          <nav class="navbar navbar-expand-md navbar-dark">
+          <div class="navbar navbar-expand-md navbar-dark">
             <button
               class="navbar-toggler"
               type="button"
@@ -29,7 +29,7 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="header__Navigation">
+            <nav class="collapse navbar-collapse" id="header__Navigation">
               <ul class="navbar-nav justify-content-center text-center">
                 <li class="nav-item">
                   <a href="" class="">WELCOME</a>
@@ -47,8 +47,8 @@
                   <a href="" class="">CONTACTS</a>
                 </li>
               </ul>
-            </div>
-          </nav>
+            </nav>
+          </div>
           <div
             class="header__links d-flex flex-column flex-md-row justify-content-between"
           >
@@ -72,31 +72,29 @@
       </section>
     </header>
     <main>
-      <article class="container-fluid" id="header__bot">
-        <section
-          class="header__bot d-flex flex-column align-items-center text-center"
-        >
-          <div class="header__tittle">
+      <article class="about container-fluid">
+        <section class="d-flex flex-column align-items-center text-center">
+          <div class="about__tittle">
             <h1>Pastry with love</h1>
           </div>
-          <div class="header__dashedLine">
+          <div class="about__dashedLine">
             <img src="img/dashedLine.png" />
           </div>
-          <div class="header__subtittle">
+          <div class="about__subtittle">
             <p>
               We’re bringing you fresh ingredients every <br />
               day in ways you can’t resist.
             </p>
           </div>
-          <div class="header__button">
+          <div class="about__button">
             <button type="button" class="p-3">OUR MENU</button>
           </div>
-          <div class="header__img">
+          <div class="about__img">
             <img src="img/border_bullets.png" class="img-fluid" alt="" />
           </div>
         </section>
       </article>
-      <article class="container-fluid" id="art">
+      <article class="art container-fluid" id="art">
         <section
           class="art__content container align-items-center justify-content-around d-flex flex-column flex-md-row"
         >
@@ -153,14 +151,15 @@
           </div>
         </section>
       </article>
-      <article class="container-fluid" id="pancaakes">
+      <article class="pancaakes container-fluid" id="pancaakes">
         <section class="container pancaakes__content d-flex">
-          <div class="pancaakes__center d-flex flex-column flex-md-row">
-            <div class="pancaaker__img w-100">
-
-
+          <div
+            class="pancaakes__center position-relative d-flex flex-column flex-md-row"
+          >
+            <div class="pancaaker__img">
+              <img src="img/testyImg.png" class="" alt="" />
             </div>
-            <div class="pancaakes__menu  ">
+            <div class="pancaakes__menu p-5">
               <div class="pancaakes__tittle">
                 <h1>Tasty pancakes</h1>
                 <h3>season favourite</h3>
@@ -221,10 +220,8 @@
           </div>
         </section>
       </article>
-      <article class="container-fluid" id="breakfast">
-        <section
-          class="container breakfast__content justify-content-between d-flex flex-column flex-md-row"
-        >
+      <article class="breakfast container-fluid" id="breakfast">
+        <section class="breakfast__content d-flex flex-column flex-md-row">
           <div
             class="breakfast__textMenu d-flex flex-column text-center justify-content-between align-items-center"
           >
@@ -254,77 +251,33 @@
               <h5>$3.95</h5>
             </div>
           </div>
-          <div class="breakfast__menu pt-sm-5 pt-md-0 mt-sm-5 mt-sm-0">
-            <div class="breakfast__menuBlog" id="blog__one">
+          <div class="breakfast__menu d-flex flex-row">
+            <div class="breakfast__menuBlog breakfast__one" id="blog__one">
+              <img src="img/menu1.png" alt="menu" />
+              <div class="breakfast__button">
+                <button class="btn" type="button">READ</button>
+              </div>
+            </div>
+            <div class="breakfast__menuBlog breakfast__two" id="blog__two">
               <div class="breakfast__menuBlogContent d-flex flex-column">
-                <div
-                  class="breakfast__menuBlogHead d-flex flex-column align-items-center justify-content-between p-5"
-                >
-                  <div class="breakfast__menuBlogHead">
-                    <img src="img/breakfastHead.png" class="img-fluid" alt="" />
-                  </div>
-                  <div class="breakfast__menuBlogText text-center">
-                    <h1>Your morning Escape with Flair</h1>
-                    <h3>
-                      Donec vitae sapien ut libero venenatis faucibus. Nullam
-                      quis ante. Etiam sit amet orci eget eros faucibus
-                      tincidunt. Duis leo.
-                    </h3>
-                  </div>
-                  <div class="breakfast__button">
-                    <button class="btn" type="button">READ</button>
-                  </div>
+                <img src="img/menu2.png" />
+
+                <div class="breakfast__button">
+                  <button class="btn" type="button">READ</button>
                 </div>
               </div>
             </div>
-            <div class="breakfast__menuBlog" id="blog__two">
-              <div class="breakfast__menuBlogContent d-flex flex-column">
-                <div
-                  class="breakfast__menuBlogHead d-flex flex-column align-items-center justify-content-between p-5"
-                >
-                  <div class="breakfast__menuBlogHead">
-                    <img src="img/breakfastHead.png" class="img-fluid" alt="" />
-                  </div>
-                  <div class="breakfast__menuBlogText text-center">
-                    <h1>Your morning Escape with Flair</h1>
-                    <h3>
-                      Donec vitae sapien ut libero venenatis faucibus. Nullam
-                      quis ante. Etiam sit amet orci eget eros faucibus
-                      tincidunt. Duis leo.
-                    </h3>
-                  </div>
-                  <div class="breakfast__button">
-                    <button class="btn" type="button">READ</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="breakfast__menuBlog" id="blog__three">
-              <div class="breakfast__menuBlogContent d-flex flex-column">
-                <div
-                  class="breakfast__menuBlogHead d-flex flex-column align-items-center justify-content-between p-5"
-                >
-                  <div class="breakfast__menuBlogHead">
-                    <img src="img/breakfastHead.png" class="img-fluid" alt="" />
-                  </div>
-                  <div class="breakfast__menuBlogText text-center">
-                    <h1>Your morning Escape with Flair</h1>
-                    <h3>
-                      Donec vitae sapien ut libero venenatis faucibus. Nullam
-                      quis ante. Etiam sit amet orci eget eros faucibus
-                      tincidunt. Duis leo.
-                    </h3>
-                  </div>
-                  <div class="breakfast__button">
-                    <button class="btn" type="button">READ</button>
-                  </div>
-                </div>
+
+            <div class="breakfast__menuBlog breakfast__three" id="blog__three">
+              <img src="img/menu3.png" alt="menu" />
+              <div class="breakfast__button">
+                <button class="btn" type="button">READ</button>
               </div>
             </div>
           </div>
         </section>
       </article>
-      <article class="container-fluid" id="sandwich">
+      <article class="sandwich container-fluid" id="sandwich">
         <section
           class="container sandwich__content d-flex text-center justify-content-between flex-column"
         >
@@ -377,28 +330,47 @@
         </section>
       </article>
     </main>
-    <footer>
+    <footer
+      class="d-flex justify-content-center text-center align-items-center footer p-5"
+    >
       <nav
-        class="navbar justify-content-center text-center align-items-center container navbar-expand-lg navbar-light"
+        class="navbar justify-content-center text-center align-items-center navbar-expand-lg"
       >
         <ul
           class="navbar-nav justify-content-center text-center align-items-center"
         >
-          <li class="nav-item"><a href="" class="nav-link">our menu</a></li>
-          <li class="nav-item header__fake px-3"><p>~</p></li>
-          <li class="nav-item"><a href="" class="nav-link">gallery </a></li>
-          <li class="nav-item header__fake px-3"><p>~</p></li>
-          <li class="nav-item"><a href="" class="nav-link">culture</a></li>
-          <li class="nav-item header__fake px-3"><p>~</p></li>
           <li class="nav-item">
-            <a href="" class="nav-link navbar-brand">Gustaso</a>
+            <a href="" class="footer__link nav-link">our menu</a>
           </li>
-          <li class="nav-item header__fake px-3"><p>~</p></li>
-          <li class="nav-item"><a href="" class="nav-link">events</a></li>
-          <li class="nav-item header__fake px-3"><p>~</p></li>
-          <li class="nav-item"><a href="" class="nav-link">events</a></li>
-          <li class="nav-item header__fake px-3"><p>~</p></li>
-          <li class="nav-item"><a href="" class="nav-link">visit us</a></li>
+          <li class="nav-item footer__link__fake"><p>~</p></li>
+          <li class="nav-item">
+            <a href="" class="footer__link nav-link">gallery </a>
+          </li>
+          <li class="nav-item footer__link__fake"><p>~</p></li>
+          <li class="nav-item">
+            <a href="" class="footer__link nav-link">culture</a>
+          </li>
+          <li class="nav-item"></li>
+        </ul>
+      </nav>
+      <a href="" class="footer__brand nav-link navbar-brand">Gustaso</a>
+      <nav
+        class="navbar justify-content-center text-center align-items-center navbar-expand-lg navbar-light"
+      >
+        <ul
+          class="navbar-nav justify-content-center text-center align-items-center"
+        >
+          <li class="nav-item">
+            <a href="" class="footer__link nav-link">events</a>
+          </li>
+          <li class="nav-item footer__link__fake"><p>~</p></li>
+          <li class="nav-item">
+            <a href="" class="footer__link nav-link">catering</a>
+          </li>
+          <li class="nav-item footer__link__fake"><p>~</p></li>
+          <li class="nav-item">
+            <a href="" class="footer__link nav-link">visit us</a>
+          </li>
         </ul>
       </nav>
     </footer>
