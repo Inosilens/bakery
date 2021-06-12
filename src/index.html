@@ -10,10 +10,7 @@
   </head>
   <body>
     <header class="header">
-      <section class="header__top align-items-center text-center p-3">
-        <div
-          class="header__navContent d-flex align-items-center text-center justify-content-between"
-        >
+      <section class="header__top d-flex align-items-center text-center justify-content-around p-3">
           <div class="header__logo">
             <h5>Gustaso</h5>
           </div>
@@ -35,7 +32,7 @@
                   <a href="" class="">WELCOME</a>
                 </li>
                 <li class="nav-item header__fake px-3"><p>~</p></li>
-                <li class="nav-item"><a href="" class="">MENU</a></li>
+                <li class="nav-item"><a href="#pancaakes" class="">MENU</a></li>
                 <li class="nav-item header__fake px-3"><p>~</p></li>
                 <li class="nav-item">
                   <a href="" class="">RESERVATION</a>
@@ -68,7 +65,7 @@
               </a>
             </div>
           </div>
-        </div>
+
       </section>
     </header>
     <main>
@@ -154,12 +151,12 @@
       <article class="pancaakes container-fluid" id="pancaakes">
         <section class="container pancaakes__content d-flex">
           <div
-            class="pancaakes__center position-relative d-flex flex-column flex-md-row"
+            class="pancaakes__center p-5 d-flex flex-column flex-md-row"
           >
             <div class="pancaaker__img">
-              <img src="img/testyImg.png" class="" alt="" />
+              <img src="img/testyImg.png" class="img-fluid" alt="" />
             </div>
-            <div class="pancaakes__menu p-5">
+            <div class="pancaakes__menu ">
               <div class="pancaakes__tittle">
                 <h1>Tasty pancakes</h1>
                 <h3>season favourite</h3>
@@ -221,9 +218,9 @@
         </section>
       </article>
       <article class="breakfast container-fluid" id="breakfast">
-        <section class="breakfast__content d-flex flex-column flex-md-row">
+        <section class="breakfast__content container justify-content-between d-flex flex-column flex-md-row">
           <div
-            class="breakfast__textMenu d-flex flex-column text-center justify-content-between align-items-center"
+            class="breakfast__textMenu  d-flex flex-column text-center justify-content-between align-items-center"
           >
             <div class="breakfast__tittle">
               <h1>Breakfast</h1>
@@ -267,7 +264,6 @@
                 </div>
               </div>
             </div>
-
             <div class="breakfast__menuBlog breakfast__three" id="blog__three">
               <img src="img/menu3.png" alt="menu" />
               <div class="breakfast__button">
@@ -375,7 +371,10 @@
       </nav>
     </footer>
     <div class="resourse">
-      <button class="toTop" type="button">To top</button>
+
+      <button onclick= "
+" class="toTop"  >To top</button>
+
     </div>
   <script src="js/index.js"></script>
   </body>
